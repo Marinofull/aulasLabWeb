@@ -48,7 +48,7 @@ body{
 #content{
     width: 80%;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
@@ -57,9 +57,10 @@ body{
     /*talvez seja necessário alterar a sectionreferenciada para o seu id, ou uma classe dela*/
     section{
         margin-top: 40px;
+        padding-bottom: 10px;
         padding-top: 20px;
         width: 100%;
-        background-color: #2E2EE0;
+        /*background-color: #2E2EE0;*/
     }
         section div:first-child{
             width: 100%;
@@ -90,8 +91,7 @@ body{
                         color: #00FFFF;
                     }
         .contentText{
-            background-color: #00FFFF;
-            /*width: 98%;*/
+            /*background-color: #00FFFF;*/
             margin-left: 20px;
             margin-top: 30px;
         }
@@ -111,6 +111,46 @@ body{
                 font-weight: bold;
                 margin-right: 10px;
             }
+    #atuacaoAnchor h2{
+        padding-left: 10px;
+    }
+        .tableAtuacao{
+            margin: 0;
+            padding-left: 50px;
+            /*background-color: #C82525;*/
+        }
+            .tableAtuacao .tableTitle{
+                text-align: left;
+                padding-bottom: 5px;
+            }
+            .tableAtuacao .year, .kind{
+                font-weight: bold;
+                margin-right: 10px;
+            }
+    #projetosAnchor h2{
+        padding-left: 10px;
+    }
+        .tableProject{
+            margin: 0;
+            padding-left: 50px;
+            /*background-color: #C82525;*/
+        }
+            .tableProject .year, .projectName{
+                font-weight: bold;
+                margin-right: 50px;
+            }
+            .tableProject td{
+                padding-top: 10px;
+            }
+
+/*footer*/
+
+footer{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
 
 
 
