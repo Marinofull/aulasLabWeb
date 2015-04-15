@@ -142,6 +142,22 @@ body{
             .tableProject td{
                 padding-top: 10px;
             }
+    #contactUs h2{
+        padding-left: 10px;
+    }
+        .formContact {
+        }
+            .formPt1{}
+            .formPt2 textarea{
+                height: 100px;
+                width: 500px;
+                resize: none;
+            }
+            .formPt3{}
+
+        .trashArea{
+            padding-left: 20px;
+        }
 
 /*footer*/
 

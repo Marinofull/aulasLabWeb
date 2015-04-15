@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Profile</title>
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheets.css">
+    <script type="text/javascript" src="assets/js/form.js"></script>
 </head>
 <body>
     <header>
@@ -123,8 +124,35 @@
                 </table>
             </div>
         </section>
-        <section id="">
+        <section id="contactUs">
+            <h2>Contate-me</h2>
             <hr>
+            <div>
+                <form class="formContact">
+                    <div class="formPt1">
+                        <input id="nameForm" type="text" name="nome" placeholder="Nome">
+                        <input id="emailForm" type="email" name="email" placeholder="E-mail">
+                        <label>Propósito</label>
+                        <select >
+                            <option id="optForm" value="0"></option>
+                            <option id="optForm" value="1">Contato Profissional</option>
+                            <option id="optForm" value="2">Consultoria</option>
+                            <option id="optForm" value="3">Palestra</option>
+                            <option id="optForm" value="4">Cumê Água</option>
+                        </select>
+                    </div>
+                    <div class="formPt2">
+                        <textarea id="textForm" ></textarea>
+                    </div>
+                    <div class="formPt3">
+                        <input id="checkboxForm" type="checkbox">
+                        <label>Aceito os Termos de Aceitação</label>
+                        <button type="button" onclick="insertParada()">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="trashArea" id="trashArea"></div>
         </section>
     </div>
     <foorter>
