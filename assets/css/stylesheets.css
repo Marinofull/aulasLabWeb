@@ -68,7 +68,7 @@ body{
         }
             #generalAnchor div div{
                 float: left;
-                width: 16%;
+                width: auto;
                 margin-left: 20px;
             }
                 #generalAnchor div div img{
@@ -79,7 +79,8 @@ body{
             #generalAnchor div div:nth-child(2){
                 /*background-color: blue;*/
                 float: left;
-                width: 80%;
+                /*width: 80%;*/
+                /*margin-left: 0px;*/
             }
                 .cvAnchor{
                     color: #000BFF;
@@ -146,6 +147,7 @@ body{
         padding-left: 10px;
     }
         .formContact {
+            padding-left: 20px;
         }
             .formPt1{}
             .formPt2 textarea{
@@ -158,6 +160,29 @@ body{
         .trashArea{
             padding-left: 20px;
         }
+            #elementResult{
+                display: inline-block;
+            }
+            #elementDivTittle{
+                float: left;
+            }
+            #elementResultTitles{
+                float: left;
+                margin-right: 15px;
+            }
+            #elementResultTitles span{
+                font-weight: bold;
+            }
+            #elementDivMessage{
+                border-radius: 5px;
+                border-style: 1px;
+                background-color: #eee;
+                width: 400px;
+                float: left;
+            }
+            #elementResultMessage span{
+                font-weight: bold;
+            }
 
 /*footer*/
 
