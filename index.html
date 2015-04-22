@@ -130,10 +130,10 @@
             <div>
                 <form class="formContact">
                     <div class="formPt1">
-                        <input id="nameForm" type="text" name="nome" placeholder="Nome">
-                        <input id="emailForm" type="email" name="email" placeholder="E-mail">
+                        <input id="nameForm" type="text" name="nome" placeholder="Nome" required >
+                        <input id="emailForm" type="email" name="email" placeholder="E-mail" required>
                         <label>Propósito</label>
-                        <select >
+                        <select required>
                             <option id="optForm" value="0"></option>
                             <option id="optForm" value="1">Contato Profissional</option>
                             <option id="optForm" value="2">Consultoria</option>
@@ -142,7 +142,7 @@
                         </select>
                     </div>
                     <div class="formPt2">
-                        <textarea id="textForm" ></textarea>
+                        <textarea id="textForm" required ></textarea>
                     </div>
                     <div class="formPt3">
                         <input id="checkboxForm" type="checkbox">

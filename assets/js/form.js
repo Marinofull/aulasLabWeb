@@ -19,6 +19,11 @@ function insertParada () {
     email = document.getElementById("emailForm").value;
     purpouse = document.getElementById("optForm").ELEMENT_NODE;
     text = document.getElementById("textForm").value;
+
+    if(name == "" || email == "" || purpouse == 0 || text == ""){
+        return;
+    }
+
     checkbox = document.getElementById("checkboxForm").value;
     date = new Date();
 
