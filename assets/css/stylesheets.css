@@ -41,6 +41,8 @@ a{
         margin-left: 30px;
     }
 
+/*Content*/
+
 body{
     background-color: #96C2E5;
 }
@@ -159,28 +161,35 @@ body{
 
         .trashArea{
             padding-left: 20px;
+            width: 1000px;
+            background-color: #eee;
         }
-            #elementResult{
+            .elementResult{
                 display: inline-block;
+                /*width: 800px;*/
             }
-            #elementDivTittle{
+                #elementChildDate{
+                    color: blue;
+                }
+            .elementDivTittle{
                 float: left;
             }
-            #elementResultTitles{
+            .elementResultTitles{
                 float: left;
                 margin-right: 15px;
             }
-            #elementResultTitles span{
+            .elementResultTitles span{
                 font-weight: bold;
             }
-            #elementDivMessage{
+            .elementDivMessage{
                 border-radius: 5px;
                 border-style: 1px;
-                background-color: #eee;
-                width: 400px;
+                /*background-color: #eee;*/
+                width: 500px;
                 float: left;
+                text-transform: auto;
             }
-            #elementResultMessage span{
+            .elementResultMessage span{
                 font-weight: bold;
             }
 
